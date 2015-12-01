@@ -6,6 +6,19 @@ body {
 	color:#ccc;
 }
 
+ul {
+	list-style-type:katakana;
+	font-size:.8em;
+	margin:0;
+	li {
+		line-height: 1.4em;
+		a {
+			color:tan;
+			font-weight: 200;
+			text-decoration: none;
+		}
+	}
+}
 	.container {
 		width:500px;
 		height:500px;

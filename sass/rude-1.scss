@@ -6,6 +6,19 @@ body {
 	color:#ccc;
 }
 
+ul {
+	list-style-type:katakana;
+	font-size:.8em;
+	margin:0;
+	li {
+		line-height: 1.4em;
+		a {
+			color:tan;
+			font-weight: 200;
+			text-decoration: none;
+		}
+	}
+}
 .watch-base {
 		width: 220px;
 		height: 220px;
