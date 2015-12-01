@@ -5,6 +5,20 @@ body {
   line-height: 60px;
   color: #ccc; }
 
+.watch-base {
+  width: 220px;
+  height: 220px;
+  left: 139px;
+  top: 133px;
+  position: absolute; }
+  .watch-base svg {
+    width: 100%;
+    height: 100%; }
+  .watch-base path {
+    fill: #37559E; }
+  .watch-base circle {
+    fill: #fff; }
+
 .container {
   width: 500px;
   height: 500px;
@@ -48,15 +62,15 @@ body {
   .watch-face-container.second {
     animation-duration: 1s;
     z-index: 3; }
-    .watch-face-container.second svg {
-      fill: yellow;
-      opacity: .6; }
+    .watch-face-container.second line {
+      stroke-width: 3;
+      stroke-miterlimit: 10;
+      stroke: #FFFFFF; }
   .watch-face-container.minute {
     animation-duration: 50s;
     z-index: 2; }
     .watch-face-container.minute svg {
-      fill: cyan;
-      opacity: .6;
+      fill: #1D2538;
       transform: rotate(20deg); }
   .watch-face-container.hour {
     animation-duration: 720s;
