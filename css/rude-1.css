@@ -70,8 +70,7 @@ body {
     animation-duration: 50s;
     z-index: 2; }
     .watch-face-container.minute svg {
-      fill: #1D2538;
-      transform: rotate(20deg); }
+      fill: #1D2538; }
   .watch-face-container.hour {
     animation-duration: 720s;
     z-index: 1; }
