@@ -7,14 +7,16 @@ body {
 
 ul {
   list-style-type: katakana;
-  font-size: .8em;
+  font-size: .7em;
+  padding-left: 22px;
   margin: 0; }
   ul li {
-    line-height: 1.4em; }
+    line-height: 1.7em; }
     ul li a {
-      color: tan;
+      color: #5b93ec;
       font-weight: 200;
       text-decoration: none; }
+
 
 .watch-base {
   width: 250px;
