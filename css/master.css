@@ -27,10 +27,10 @@ ul {
   position: relative; }
 
 .watch-face-container {
-  width: 220px;
-  height: 220px;
-  left: 139px;
-  top: 133px;
+  width: 244px;
+  height: 244px;
+  left: 127px;
+  top: 120px;
   position: absolute;
   -webkit-animation-name: spin;
   -webkit-animation-duration: 9000ms;

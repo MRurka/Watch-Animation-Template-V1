@@ -26,9 +26,8 @@ ul {
     width: 100%;
     height: 100%; }
   .watch-base path {
-    fill: #37559E; }
-  .watch-base circle {
-    fill: #fff; }
+     }
+  .watch-base circle { }
 
 .container {
   width: 500px;
@@ -74,20 +73,17 @@ ul {
     animation-duration: 1s;
     z-index: 3; }
     .watch-face-container.second line {
-      stroke-width: 3;
-      stroke-miterlimit: 10;
-      stroke: #FFFFFF; }
+ }
   .watch-face-container.minute {
     animation-duration: 50s;
     z-index: 2; }
     .watch-face-container.minute svg {
-       }
+ }
   .watch-face-container.hour {
     animation-duration: 720s;
     z-index: 1; }
     .watch-face-container.hour svg {
-      fill: magenta;
-      opacity: .7; }
+ }
 
 @-ms-keyframes spin {
   from {
